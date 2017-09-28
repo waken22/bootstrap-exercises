@@ -1,0 +1,35 @@
+#gamma {
+  color : #00b19a;
+}
+
+.menuText {
+  color : #555555;
+}
+
+.nomargin-navbar {
+  margin: 0px;
+}
+
+@media (max-width: @screen-xs) {
+    body{font-size: 10px;}
+}
+
+@media (max-width: @screen-sm) {
+    body{font-size: 14px;}
+}
+
+.titleHome{
+  color: white;
+  font-size: 5.0em;
+}
+.titleHome span {
+  color: #00b19a;
+}
+.textTitleHome{
+  color: white;
+}   
+.section1 {
+  background-image: url("site_showcase_bg.jpg");
+  width: auto;
+  height: 500px;
+}
