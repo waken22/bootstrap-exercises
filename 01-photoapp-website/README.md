@@ -1,21 +1,21 @@
 ## PhotoApp Website
 
 Create the following site w/ Bootstrap 
-The images you'll need are available at `/material/img.zip`
+The images you'll need are available at `/material/resources.zip`
 
 ### Home Page 
 
-![img/home-1400](img/home-1400.png)
+![resources/home-1400](resources/home-1400.png)
 
 ### About Page 
 
-![img/about-1400](img/about-1400.png)
+![resources/about-1400](resources/about-1400.png)
 
 ### Contact Page 
 
-![img/contact-1400](img/contact-1400.png)
+![resources/contact-1400](resources/contact-1400.png)
 
-You have more images of different versions (different resolutions) of these designs at the `img` folder
+You have more images of different versions (different resolutions) of these designs at the `resources` folder
 
 ## What you'll learn
 
