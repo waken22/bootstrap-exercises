@@ -1,0 +1,10 @@
+.Intro {
+@media (min-width: 400px) and (max-width: 1199px) {
+  & .imgApple {
+    display: inline;
+  }
+  & .imgGoogle {
+    display: inline;
+  }
+}
+}
