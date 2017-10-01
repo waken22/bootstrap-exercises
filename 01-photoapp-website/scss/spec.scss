@@ -1,36 +1,65 @@
+/* Intro section */
 .Intro {
 
-@media (min-width: 560px) and (max-width: 1199px) {
-  & .titleHome {
-    font-size: 4.0em;
-  }
-  & .imgApple {
-    padding-right: 0.7em;
-    padding-bottom: 6em;
-  }
-  & .imgGoogle {
-    padding-left: 0.7em;
-    padding-bottom: 6em;
-  }
+  @media (min-width: 560px) and (max-width: 1199px) {
+    & .titleHome {
+      font-size: 4.0em;
+    }
+    & .imgApple {
+      padding-right: 0.7em;
+      padding-bottom: 6em;
+    }
+    & .imgGoogle {
+      padding-left: 0.7em;
+      padding-bottom: 6em;
+    }
 
-}
-@media (min-width: 50px) and (max-width: 559px) {
-  & p {
-    text-align: center;
   }
-  & .titleHome {
-    font-size: 3.0em;
-    text-align: center;
+  @media (min-width: 50px) and (max-width: 559px) {
+    & p {
+      text-align: center;
+    }
+    & .titleHome {
+      font-size: 3.0em;
+      text-align: center;
+    }
+    & .imgApple {
+      padding-bottom: 0.7em;
+      display: block;
+      margin: 0 auto;
   }
-  & .imgApple {
-    padding-bottom: 0.7em;
-    display: block;
-    margin: 0 auto;
-}
-  & .imgGoogle {
-    padding-bottom: 0.7em;
-    display: block;
-    margin: 0 auto;
+    & .imgGoogle {
+      padding-bottom: 0.7em;
+      display: block;
+      margin: 0 auto;
+    }
   }
 }
+
+.GammaFeatures {
+
+  @media (min-width: 50px) and (max-width: 992px) {
+    & .logoCam{
+      margin-left: 0;
+      padding-top: 1.5em;
+      padding-bottom: 2em;
+    }
+  }
+}
+.FooterEnd {
+  
+   @media (min-width: 50px) and (max-width: 992px) {
+    & ul, li {
+      padding-top: 2em;
+      text-align: center;
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    & .copyrightB {
+      padding-top: 2em;
+      text-align: center;
+      display: block;
+    }
+  }
 }

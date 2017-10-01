@@ -1,9 +1,13 @@
+/* Style SCSS */
 
+/* -------- HOME PAGE ------- */
 
-
+/* Bold all H... */
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
+
+/* Navegation - top */
 
 .Navegation {
   & .SiteName {
@@ -11,6 +15,8 @@ h1, h2, h3, h4, h5, h6 {
   }
    margin: 0px;
 }
+
+
 .Intro {
   background: #fff url("../img/site_showcase_bg.jpg") no-repeat center/cover;
   width: auto;
@@ -31,45 +37,89 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.section2 {
+.thumbnailSection {
   margin-top: 4em;
-}
-
-.thumbnail {
+  &.thumbnail {
   border: none;
-}
-
-.demoimg {
+  }
+  
+  & .demoimg {
   border: 1px solid #ddd;
   border-radius: 4px;
+  }
 }
+
 
 
 /*  Gamma Features */
 
 .GammaFeatures {
   background-color: #00b19a;
-}
 
-.GammaTittle {
-  margin-top: 1em;
+  & .GammaTittle {
+    margin-top: 1em;
 
-  color: white;
-  font-size: 2.5em;
-}
-
-
-.GammaList {
+    color: white;
+    font-size: 2.5em;
+  }
+  & .GammaList {
   margin-left: 0px;
   padding-left: 0px;
   font-size : 1.4em;
   margin-bottom: 0.5em;
   color: white;
+    li {
+      padding-bottom: 0.5em;
+    }
+  }
+  & .logoCam{
+    margin: 0 auto;
+    padding-top: 2.5em;
+    padding-bottom: 3em;
+  }
 }
 
-.GammaList li {
-  padding-bottom: 0.5em;
+/* Footer end Page */
+
+.FooterEnd {
+  color: white;
+  background-color: #333;
+  
+  & ul li {
+    display: inline-block;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: 2em;
+
+  }
+  & p {
+    padding-bottom: 2em;
+    padding-top: 2.5em;
+    text-align: right;
+  }
 }
 
+/* -------- CONTACT US PAGE ------- */
+
+/* Div TOP */
+.DivTop {
+  background-color: #00b19a;
+   p {
+    margin-top: 0.3em;
+    color: white;
+    font-size: 2.5em;
+  }
+}
+
+.demo2contact {
+  border: none;
+}
+
+/* -------- ABOUT GAMMA PAGE ------- */
+.titleAbout {
+  font-weight: bold;
+  font-size : 2em;
+
+}
 /* @import Rule */
 @import "spec";

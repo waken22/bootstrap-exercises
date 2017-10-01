@@ -1,6 +1,10 @@
+/* Style SCSS */
+/* -------- HOME PAGE ------- */
+/* Bold all H... */
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold; }
 
+/* Navegation - top */
 .Navegation {
   margin: 0px; }
   .Navegation .SiteName {
@@ -21,36 +25,67 @@ h1, h2, h3, h4, h5, h6 {
   .Intro .imageSectionRight {
     margin-top: 3em; }
 
-.section2 {
+.thumbnailSection {
   margin-top: 4em; }
-
-.thumbnail {
-  border: none; }
-
-.demoimg {
-  border: 1px solid #ddd;
-  border-radius: 4px; }
+  .thumbnailSection.thumbnail {
+    border: none; }
+  .thumbnailSection .demoimg {
+    border: 1px solid #ddd;
+    border-radius: 4px; }
 
 /*  Gamma Features */
 .GammaFeatures {
   background-color: #00b19a; }
+  .GammaFeatures .GammaTittle {
+    margin-top: 1em;
+    color: white;
+    font-size: 2.5em; }
+  .GammaFeatures .GammaList {
+    margin-left: 0px;
+    padding-left: 0px;
+    font-size: 1.4em;
+    margin-bottom: 0.5em;
+    color: white; }
+    .GammaFeatures .GammaList li {
+      padding-bottom: 0.5em; }
+  .GammaFeatures .logoCam {
+    margin: 0 auto;
+    padding-top: 2.5em;
+    padding-bottom: 3em; }
 
-.GammaTittle {
-  margin-top: 1em;
+/* Footer end Page */
+.FooterEnd {
   color: white;
-  font-size: 2.5em; }
+  background-color: #333; }
+  .FooterEnd ul li {
+    display: inline-block;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: 2em; }
+  .FooterEnd p {
+    padding-bottom: 2em;
+    padding-top: 2.5em;
+    text-align: right; }
 
-.GammaList {
-  margin-left: 0px;
-  padding-left: 0px;
-  font-size: 1.4em;
-  margin-bottom: 0.5em;
-  color: white; }
+/* -------- CONTACT US PAGE ------- */
+/* Div TOP */
+.DivTop {
+  background-color: #00b19a; }
+  .DivTop p {
+    margin-top: 0.3em;
+    color: white;
+    font-size: 2.5em; }
 
-.GammaList li {
-  padding-bottom: 0.5em; }
+.demo2contact {
+  border: none; }
+
+/* -------- ABOUT GAMMA PAGE ------- */
+.titleAbout {
+  font-weight: bold;
+  font-size: 2em; }
 
 /* @import Rule */
+/* Intro section */
 @media (min-width: 560px) and (max-width: 1199px) {
   .Intro .titleHome {
     font-size: 4.0em; }
@@ -74,5 +109,23 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 0.7em;
     display: block;
     margin: 0 auto; } }
+
+@media (min-width: 50px) and (max-width: 992px) {
+  .GammaFeatures .logoCam {
+    margin-left: 0;
+    padding-top: 1.5em;
+    padding-bottom: 2em; } }
+
+@media (min-width: 50px) and (max-width: 992px) {
+  .FooterEnd ul, .FooterEnd li {
+    padding-top: 2em;
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto; }
+  .FooterEnd .copyrightB {
+    padding-top: 2em;
+    text-align: center;
+    display: block; } }
 
 /*# sourceMappingURL=style.css.map */
