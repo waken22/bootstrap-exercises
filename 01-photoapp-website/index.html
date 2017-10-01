@@ -10,24 +10,27 @@
 </head>
 <body>
   <!-- nav bar -->
-  <nav class="navbar navbar-default nomargin-navbar Navegation">
-    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    <a class="navbar-brand" href="#"><p class="SiteName">Gamma</p></a>
-    <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active">
-          <a href="# ">Home <span class="sr-only ">(current)</span></a></li>
-        <li><a href="# ">About</a></li>
-        <li><a href="# ">Contact</a></li>
-      </ul>
+  <nav class="navbar navbar-default nomargin-navbar Navegation" role="navigation">
+    <div class="container ">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><p class="SiteName">Gamma</p></a>
+      <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active">
+            <a href="# ">Home <span class="sr-only ">(current)</span></a></li>
+          <li><a href="# ">About</a></li>
+          <li><a href="# ">Contact</a></li>
+        </ul>
+      </div>
     </div>
   </nav>
 
+  <!-- Section INTRO -->
   <section class="Intro">
     <div class="container ">
       <div class="row">
@@ -35,18 +38,26 @@
         <div class="col-lg-6">
             <h1 class="titleHome ">Capture <span>Life</span></h1>
             <p class="lead">A fun and easy way to capture & share the moments you live for</p>
-            <div class="row">
-              <div class="col-lg-6 ">
+            <!-- This is for md, sm, xs -->
+            <div class="ImagesIntro hidden-lg">
+              <img class="imgApple" src="img/icon_app_store.png " alt="Apple Store ">
+              <img class="imgGoogle" src="img/icon_google_play.png " alt="Icon Google Play ">
+            </div>
+            <div class="separationImg hidden-lg">
+            </div>
+            <!-- This only for LG -->
+            <div class="row visible-lg">
+              <div class="col-lg-6 visible-lg">
                 <img class="imgApple" src="img/icon_app_store.png " alt="Apple Store ">
               </div>
-              <div class="col-lg-6 ">
+              <div class="col-lg-6 visible-lg">
                 <img class="imgGoogle" src="img/icon_google_play.png " alt="Icon Google Play ">
               </div>
             </div>
         </div>
         <!-- Section Right -->
         <div class="col-lg-6 visible-lg ">
-          <img class="imageSectionRight visible-lg" src="img/site_phone_r.png " alt="Site Phone ">
+          <img class="imageSectionRight visible-lg img-responsive" src="img/site_phone_r.png " alt="Site Phone ">
         </div>
       </div>
     </div>

@@ -1,10 +1,3 @@
-/* @import Rule */
-@media (min-width: 400px) and (max-width: 1199px) {
-  .Intro .imgApple {
-    display: inline; }
-  .Intro .imgGoogle {
-    display: inline; } }
-
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold; }
 
@@ -14,7 +7,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #00b19a; }
 
 .Intro {
-  background-image: url("../img/site_showcase_bg.jpg");
+  background: #fff url("../img/site_showcase_bg.jpg") no-repeat center/cover;
   width: auto; }
   .Intro .titleHome {
     margin-top: 1em;
@@ -56,5 +49,30 @@ h1, h2, h3, h4, h5, h6 {
 
 .GammaList li {
   padding-bottom: 0.5em; }
+
+/* @import Rule */
+@media (min-width: 560px) and (max-width: 1199px) {
+  .Intro .titleHome {
+    font-size: 4.0em; }
+  .Intro .imgApple {
+    padding-right: 0.7em;
+    padding-bottom: 6em; }
+  .Intro .imgGoogle {
+    padding-left: 0.7em;
+    padding-bottom: 6em; } }
+@media (min-width: 50px) and (max-width: 559px) {
+  .Intro p {
+    text-align: center; }
+  .Intro .titleHome {
+    font-size: 3.0em;
+    text-align: center; }
+  .Intro .imgApple {
+    padding-bottom: 0.7em;
+    display: block;
+    margin: 0 auto; }
+  .Intro .imgGoogle {
+    padding-bottom: 0.7em;
+    display: block;
+    margin: 0 auto; } }
 
 /*# sourceMappingURL=style.css.map */
